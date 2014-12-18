@@ -1,16 +1,24 @@
 html, body {
 	margin: 0px; padding: 0px; border: 0px;
+	background-color:#f0f0f0;
 }
 #header{
 	background: green;
 	height:100px;
 }
+
+#footer{
+	background: green;
+	height:250px;
+}
 .centered{
 	width: 960px;
+	height:650px;
 	margin-right: auto;
 	margin-left: auto;
 	font-family: Arial, Helvetica, sans-serif;
 	background-color:red;
+
 }
 
 .third{
