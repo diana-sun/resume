@@ -6,11 +6,19 @@ $(document).ready(function(){
 					opacity: 0.75,
 					bottom: "+=25",
 					
-				},500,function(){});
+				}
+				,500
+				,function(){
+					
+				});
 			}, 
 			function() {
 				console.log("out")
+				$(this).animate({
+					height:"toggle",
+					opacity: 1.0,
+
+				})
 			}
 			);
-	}
-	)
+	})
