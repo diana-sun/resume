@@ -3,7 +3,21 @@ body{ text-align:justify; color: #565656; font-family: 'Open Sans', sans-serif; 
 	height:100px;
 	font-size:20px;
 	color: #1b75bb;
+	max-width: 100%;
+	max-height: 100%;
 }
+
+
+#header img {
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 100%;
+  min-height: 100px;
+}
+
 
 .copyright{
 	font-size:12px;
@@ -12,10 +26,24 @@ body{ text-align:justify; color: #565656; font-family: 'Open Sans', sans-serif; 
 #footer{
 	height:15px;
 	font-size:12px;
+	max-width: 100%;
+	max-height: 100%;
 }
+
+
+#footer img {
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 100%;
+  min-height: 15px;
+}
+
 .centered{
 	width: 960px;
-	height:520px;
+	height:510px;
 	margin-right: auto;
 	margin-left: auto;
 	font-family: 'Open Sans', sans-serif;
