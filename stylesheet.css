@@ -47,8 +47,17 @@ body{ text-align:justify; color: #565656; font-family: 'Open Sans', sans-serif; 
 	margin-right: auto;
 	margin-left: auto;
 	font-family: 'Open Sans', sans-serif;
-
 }
+
+
+.centered2{
+	width: 960px;
+	height:2010px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
 
 .third{
 	float:left;
