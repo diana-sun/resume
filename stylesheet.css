@@ -18,6 +18,25 @@ body{ text-align:left ; color: #565656; font-family: 'Open Sans', sans-serif; fo
   min-height: 100px;
 }
 
+#indexheader{
+	height:600px;
+	font-size:15px;
+	color: #1b75bb;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+#indexheader img {
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 100%;
+  min-height: 600px;
+}
+
 
 .copyright{
 	font-size:12px;
@@ -53,6 +72,30 @@ body{ text-align:left ; color: #565656; font-family: 'Open Sans', sans-serif; fo
 .centered2{
 	width: 960px;
 	height:2010px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.centeredspatula{
+	width: 960px;
+	height:780px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.centeredvessel{
+	width: 960px;
+	height:680px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.centeredsketches{
+	width: 960px;
+	height:6410px;
 	margin-right: auto;
 	margin-left: auto;
 	font-family: 'Open Sans', sans-serif;
