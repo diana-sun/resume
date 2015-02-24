@@ -87,7 +87,23 @@ body{ text-align:left ; color: #565656; font-family: 'Open Sans', sans-serif; fo
 
 .centeredvessel{
 	width: 960px;
-	height:680px;
+	height:980px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.centeredstool{
+	width: 960px;
+	height:1400px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.centeredextinguisher{
+	width: 960px;
+	height:1300px;
 	margin-right: auto;
 	margin-left: auto;
 	font-family: 'Open Sans', sans-serif;
@@ -169,8 +185,8 @@ a:active {
 }
  
 .grow img:hover {
-  width: 375px;
   height: 250px;
+  width: 374px;
   margin-left: -25px;
   margin-top: -25px;
   opacity: 1;
