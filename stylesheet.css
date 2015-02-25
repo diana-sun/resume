@@ -1,12 +1,59 @@
-body{ text-align:left ; color: #565656; font-family: 'Open Sans', sans-serif; font-size: 13px; line-height:180%; background-color: #f7f7f7} 
+body{
+	text-align:left;
+	color: #565656;
+	font-family: 'Helvetica', 'Arial' serif;
+	font-size: 13px;
+	line-height:180%;
+	background-color: #f7f7f7
+} 
 #header{
 	height:100px;
 	font-size:15px;
-	color: #1b75bb;
-	max-width: 100%;
-	max-height: 100%;
+	color: #f7f7f7;
+	padding-top: 30px;
+	font-family: 'Julius Sans One', sans-serif;
+	/*max-width: 100%;
+	/*max-height: 100%;
+
+	background-attachment: fixed;
+	/*background-image: url('photography/p2COVER.jpg');
+	background-size: cover; */
+	background-image: linear-gradient( 135deg, #99b1b3, #deb0b0 );
+
+	width:100%;
+	height:100px;
 }
 
+.jumbo {
+	background-attachment: fixed;
+	/*background-image: url('photography/p2COVER.jpg');
+	background-size: cover; */
+	background-image: linear-gradient( 135deg, #99b1b3, #deb0b0 );
+
+	width:100%;
+	height:400px;
+}
+
+
+.jumbo-text{
+	position:relative;
+	bottom: 300px;
+	color:white;
+	font-size:15px;
+ 	letter-spacing: 1px;
+ 	line-height: 140%;
+	font-family: 'Julius Sans One', sans-serif;
+	width:500px;
+	height:200px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom:-200px;
+	padding:25px;
+	padding-top: 45px;
+	text-align:center;
+	background-color: rgba(0, 0, 0, 0.2);
+	border:2px solid;
+}
 
 #header img {
   top: 0; 
@@ -19,7 +66,7 @@ body{ text-align:left ; color: #565656; font-family: 'Open Sans', sans-serif; fo
 }
 
 #indexheader{
-	height:200px;
+	height: 100px;
 	font-size:15px;
 	color: #1b75bb;
 	max-width: 100%;
@@ -34,7 +81,7 @@ body{ text-align:left ; color: #565656; font-family: 'Open Sans', sans-serif; fo
   bottom: 0; 
   margin: auto; 
   min-width: 100%;
-  min-height: 200px;
+  min-height: 100px;
 }
 
 

@@ -1,25 +1,14 @@
-/*$(document).ready(function(){
-		$(".third").hover(
-			function() {
-				$(this).animate({
-					height:"toggle",
-					opacity: 0.75,
-					bottom: "+=25",
-					
-				}
-				,500
-				,function(){
-					
-				});
-			}, 
-			function() {
-				console.log("out")
-				$(this).animate({
-					height:"toggle",
-					opacity: 1.0,
+function dynamicResize(){
+	var winHeight = $( window ).height();
+	$('.jumbo').css('height',winHeight);
+	$('.jumbo-text').css('bottom',winHeight/2 + 100);
+	$('#jumbo-nav').css('height', winHeight/2 + 200);
+}
 
-				})
-			}
-			);
-	})
-*/
+$(document).ready(function(){
+	dynamicResize();
+});
+
+$( window ).resize(function() {
+  dynamicResize();
+});
